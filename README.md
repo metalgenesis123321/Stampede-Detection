@@ -36,5 +36,10 @@ In dense environments such as metro stations, concerts, and public gatherings, t
   - Live Dashboard: Real-time alerts, risk zones.
   - Automated Notifications: Alerts sent to security teams via SMS/IoT integration.
 
+# Links to Dataset
+- https://github.com/mchengny/RWF2000-Video-Database-for-Violence-Detection
+- https://www.kaggle.com/datasets/danaelisanicolas/high-density-crowd-counting/data
+
+
 
 
