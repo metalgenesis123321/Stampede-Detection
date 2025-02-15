@@ -20,7 +20,6 @@ In dense environments such as metro stations, concerts, and public gatherings, t
 # 2. AI-based Crowd Analysis
    1. Crowd Density Analysis
       - Detect people per square meter using object detection (YOLO).
-      - Generate a heatmap for congestion zones.
       - Predict trends using historical data and time-series analysis.
    
    2. Sudden Change in Direction
@@ -34,7 +33,7 @@ In dense environments such as metro stations, concerts, and public gatherings, t
 
 # 3. Alert Mechanism & Visualization
   - Risk Flags: High & Critical levels based on predefined thresholds.
-  - Live Dashboard: Real-time alerts, risk zones, and heatmap overlays.
+  - Live Dashboard: Real-time alerts, risk zones.
   - Automated Notifications: Alerts sent to security teams via SMS/IoT integration.
 
 
