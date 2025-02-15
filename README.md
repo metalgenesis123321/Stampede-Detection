@@ -16,18 +16,22 @@ In dense environments such as metro stations, concerts, and public gatherings, t
   - Real-time Video Input: Surveillance cameras, drones
   - Preprocessing: Frame extraction, noise reduction, and stabilization.
   - We used FiftyOne library for frame extraction and labelling.
+    
 # 2. AI-based Crowd Analysis
    1. Crowd Density Analysis
       - Detect people per square meter using object detection (YOLO).
       - Generate a heatmap for congestion zones.
       - Predict trends using historical data and time-series analysis.
+   
    2.Sudden Change in Direction
       - Optical Flow Analysis (Lucas-Kanade, Farneback) to track movement vectors.
       - Anomaly Detection: Identify rapid directional shifts.
       - Correlate with audio signals (if available) for external disturbances.
+   
    3.	Motion Patterns & Erratic Behavior
       - Track acceleration spikes using trajectory analysis.
       - Identify unnatural clustering with density-based clustering (DBSCAN).
+
 # 3. Alert Mechanism & Visualization
   - Risk Flags: High & Critical levels based on predefined thresholds.
   - Live Dashboard: Real-time alerts, risk zones, and heatmap overlays.
