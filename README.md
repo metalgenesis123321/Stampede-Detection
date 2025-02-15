@@ -18,17 +18,17 @@ In dense environments such as metro stations, concerts, and public gatherings, t
   - We used FiftyOne library for frame extraction and labelling.
     
 # 2. AI-based Crowd Analysis
-   1. Crowd Density Analysis
+   (i) Crowd Density Analysis
       - Detect people per square meter using object detection (YOLO).
       - Generate a heatmap for congestion zones.
       - Predict trends using historical data and time-series analysis.
    
-   2.Sudden Change in Direction
+   (ii) Sudden Change in Direction
       - Optical Flow Analysis (Lucas-Kanade, Farneback) to track movement vectors.
       - Anomaly Detection: Identify rapid directional shifts.
       - Correlate with audio signals (if available) for external disturbances.
    
-   3.	Motion Patterns & Erratic Behavior
+   (iii)	Motion Patterns & Erratic Behavior
       - Track acceleration spikes using trajectory analysis.
       - Identify unnatural clustering with density-based clustering (DBSCAN).
 
