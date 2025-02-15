@@ -1,0 +1,15 @@
+import requests
+
+# Dropbox link (direct link modification)
+dropbox_url = "https://www.dropbox.com/scl/fi/dkj5kulc9zj0rzesslck8/ShanghaiTech_Crowd_Counting_Dataset.zip?dl=1"
+
+# Download the file
+output_file = "ShanghaiTech_Crowd_Counting_Dataset.zip"
+
+print("Downloading dataset...")
+response = requests.get(dropbox_url, stream=True)
+with open(output_file, "wb") as file:
+    for chunk in response.iter_content(chunk_size=8192):
+        file.write(chunk)
+
+print("Download complete!")
